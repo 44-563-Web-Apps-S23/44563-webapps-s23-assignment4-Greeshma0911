@@ -8,7 +8,7 @@
 
 .direction{
     font-family:'Times New Roman', Times, serif;
-    font-size:small;
+    font-size:medium;
     color:black;
     background-color:peachpuff;
     
@@ -19,12 +19,47 @@
 }
 
 .cotton{
-    color:pink;
+    color:red;
+    border-style: dashed;
+}
+.cotton:hover{
+    text-shadow: 2px 2px;
+    background-color:blueviolet;
+    color:beige;
 }
       
 .betty{
-    color:orange;
+    color:blue;
+    border-style: solid;
 }
+.betty:hover{
+    text-shadow: 2px 2px;
+    background-color:darkgoldenrod;
+    color:cornsilk;
+
+}
+
+.table, th, td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding: 30px;
+}
+
+th, td{
+    padding: 15px;
+    margin-right: 50px;
+}
+
+tr:nth-child(even){
+    background-color:aqua;
+}
+
+tr:nth-child(odd){
+    background-color:cornsilk
+}
+
+
+
 
 
 
